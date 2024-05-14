@@ -9,7 +9,7 @@
     @vite('resources/js/app.js')
     <title>Template</title>
 </head>
-<body>
+<body class="bg-dark-subtle">
     @include('partials.header')
 
     <main>
