@@ -2,8 +2,8 @@
 
 @section('content')
 
-<div class="container text-center">
-    <h1>Treni</h1>
+<div class="container my-5 text-center">
+    <h1 class="my-3">Treni</h1>
     <table class="table">
         <thead>
             <tr>
