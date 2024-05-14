@@ -7,7 +7,7 @@
 
     <!-- Styles -->
     @vite('resources/js/app.js')
-    <title>Template</title>
+    <title>Agenzia Bool | @yield('title')</title>
 </head>
 <body class="bg-dark-subtle">
     @include('partials.header')

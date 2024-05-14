@@ -12,3 +12,7 @@
 </div>
 
 @endsection
+
+@section('title')
+    Home
+@endsection

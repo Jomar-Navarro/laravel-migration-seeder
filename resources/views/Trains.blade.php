@@ -34,6 +34,12 @@
             @endforeach
     </tbody>
 </table>
+
+{{$trains->links()}}
 </div>
 
+@endsection
+
+@section('title')
+    Trains
 @endsection
