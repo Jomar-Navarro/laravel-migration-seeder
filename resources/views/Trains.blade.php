@@ -28,7 +28,7 @@
                 <td>{{$train->departure_time}}</td>
                 <td>{{$train->arrival_time}}</td>
                 <td>{{$train->train_code}}</td>
-                <td>{{$train->ticket_price}}</td>
+                <td>&euro; {{$train->ticket_price}}</td>
                 <td>{{$train->carriages_number}}</td>
             </tr>
             @endforeach

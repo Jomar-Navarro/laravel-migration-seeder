@@ -24,7 +24,7 @@ class TrainsTableSeeder extends Seeder
             $new_train->departure_time = $faker->time();
             $new_train->arrival_time = $faker->time();
             $new_train->train_code = $faker->ean13();
-            $new_train->ticket_price = $faker->numberBetween(1, 10000);
+            $new_train->ticket_price = $faker->numberBetween(1, 1000);
             $new_train->carriages_number = $faker->numberBetween(1, 10);
 
             $new_train->save();
@@ -45,8 +45,8 @@ class TrainsTableSeeder extends Seeder
             $exists = Train::where('slug', $slug)->first();
             $c++;
 
-            return $slug;
         }
+        return $slug;
     }
 
 
